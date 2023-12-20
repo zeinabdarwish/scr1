@@ -6,4 +6,4 @@ scr1_top_tb_ahb
 # Summary: 1/1 tests passed
 #--------------------------------------
 
-- /home/scarletshroud/scr1/src/tb/scr1_top_tb_runtests.sv:199: Verilog $finish
+- /home/zeinab/scr1/src/tb/scr1_top_tb_runtests.sv:199: Verilog $finish
