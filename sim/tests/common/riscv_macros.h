@@ -104,7 +104,7 @@
 #define RVTEST_CODE_BEGIN                                               \
         .org 0x01, 0x00;                                                \
         MSG_TRAP:                                                       \
-        .string "misalign";                                             \
+        .string "envcall from M-mode";                                            \
         .section .text.init;                                            \
         .balign  64;                                                    \
         .weak stvec_handler;                                            \
